@@ -15,8 +15,8 @@ print(date)
 conn = psycopg2.connect(
     host="localhost",
     database="thingsboard",
-    user="postgres",
-    password="galpADMIN"
+    user="your_user",
+    password="your_password"
 )
 
 # Create a cursor object to execute SQL queries
